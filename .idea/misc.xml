@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/jason/AndroidStudioProjects/henrydef/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.196" />
+        <entry key="..\:/Users/jason/AndroidStudioProjects/henrydef/app/src/main/res/drawable/home.xml" value="0.3675" />
+        <entry key="..\:/Users/jason/AndroidStudioProjects/henrydef/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2985" />
+        <entry key="..\:/Users/jason/AndroidStudioProjects/henrydef/app/src/main/res/drawable/next.xml" value="0.196" />
+        <entry key="..\:/Users/jason/AndroidStudioProjects/henrydef/app/src/main/res/drawable/shape.xml" value="0.2985" />
+        <entry key="..\:/Users/jason/AndroidStudioProjects/henrydef/app/src/main/res/drawable/volume.xml" value="0.196" />
+        <entry key="..\:/Users/jason/AndroidStudioProjects/henrydef/app/src/main/res/layout/activity_conver1.xml" value="0.33" />
+        <entry key="..\:/Users/jason/AndroidStudioProjects/henrydef/app/src/main/res/layout/activity_conver2.xml" value="0.33" />
+        <entry key="..\:/Users/jason/AndroidStudioProjects/henrydef/app/src/main/res/layout/activity_conver3.xml" value="0.30387205387205385" />
+        <entry key="..\:/Users/jason/AndroidStudioProjects/henrydef/app/src/main/res/layout/activity_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/jason/AndroidStudioProjects/henrydef/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/jason/AndroidStudioProjects/henrydef/app/src/main/res/layout/activity_splash.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/jason/AndroidStudioProjects/henrydef/app/src/main/res/layout/activity_u2_c1.xml" value="0.31654676258992803" />
+        <entry key="..\:/Users/jason/AndroidStudioProjects/henrydef/app/src/main/res/layout/activity_u2_c2.xml" value="0.27543035993740217" />
+        <entry key="..\:/Users/jason/AndroidStudioProjects/henrydef/app/src/main/res/layout/activity_u2_c3.xml" value="0.3121951219512195" />
+        <entry key="..\:/Users/jason/AndroidStudioProjects/henrydef/app/src/main/res/layout/activity_u3_c1.xml" value="0.27984496124031005" />
+        <entry key="..\:/Users/jason/AndroidStudioProjects/henrydef/app/src/main/res/layout/activity_u3_c2.xml" value="0.33" />
+        <entry key="..\:/Users/jason/AndroidStudioProjects/henrydef/app/src/main/res/layout/activity_u3_c3.xml" value="0.2636103151862464" />
+        <entry key="..\:/Users/jason/AndroidStudioProjects/henrydef/app/src/main/res/layout/activity_u4_c1.xml" value="0.3121951219512195" />
+        <entry key="..\:/Users/jason/AndroidStudioProjects/henrydef/app/src/main/res/layout/activity_u4_c2.xml" value="0.3154121863799283" />
+        <entry key="..\:/Users/jason/AndroidStudioProjects/henrydef/app/src/main/res/layout/activity_u4_c3.xml" value="0.23320413436692505" />
+        <entry key="..\:/Users/jason/AndroidStudioProjects/henrydef/app/src/main/res/layout/activity_u4_c4.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/jason/AndroidStudioProjects/henrydef/app/src/main/res/layout/activity_u5_c1.xml" value="0.30489389346037243" />
+        <entry key="..\:/Users/jason/AndroidStudioProjects/henrydef/app/src/main/res/layout/activity_u5_c2.xml" value="0.2789799072642968" />
+        <entry key="..\:/Users/jason/AndroidStudioProjects/henrydef/app/src/main/res/layout/activity_u5_c3.xml" value="0.26083815028901736" />
+        <entry key="..\:/Users/jason/AndroidStudioProjects/henrydef/app/src/main/res/layout/child_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/jason/AndroidStudioProjects/henrydef/app/src/main/res/layout/group_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/jason/AndroidStudioProjects/henrydef/app/src/main/res/layout/row.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/jason/AndroidStudioProjects/henrydef/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2415" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

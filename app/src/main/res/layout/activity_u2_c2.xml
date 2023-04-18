@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo1"
+    tools:context=".U2.U2C2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="-30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:textColor="#FFFF"
+                android:textStyle="bold"
+                android:text="Conversation 2: Arranging a meeting."
+                android:textSize="30dp" />
+
+            //1
+            <LinearLayout
+                android:background="@drawable/shape"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:padding="20dp">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="45dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="left"
+                    app:srcCompat="@drawable/man" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:text="@string/unou22" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <Button
+                            android:id="@+id/btn_repoU2C21"
+                            android:layout_width="35dp"
+                            android:layout_height="36dp"
+                            android:backgroundTint="@color/blue"
+                            android:background="@drawable/volume" />
+                        <Button
+                            android:id="@+id/btn_recU2C21"
+                            android:layout_width="35dp"
+                            android:layout_height="36dp"
+                            android:backgroundTint="@color/blue"
+                            android:background="@drawable/stop_rec"
+                            android:onClick="RecorderU2c21" />
+
+                        <Button
+                            android:id="@+id/btn_playU2C21"
+                            android:layout_width="35dp"
+                            android:layout_height="37dp"
+                            android:backgroundTint="@color/blue"
+                            android:background="@drawable/reproducir"
+                            android:onClick="reproducirU2C21" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            //2
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:orientation="horizontal"
+                android:padding="20dp"
+                android:background="@drawable/shape">
+
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_gravity="right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:text="@string/ddosu22" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:orientation="horizontal">
+                        <Button
+                            android:id="@+id/btn_repoU2C22"
+                            android:layout_width="35dp"
+                            android:layout_height="36dp"
+                            android:backgroundTint="@color/blue"
+                            android:background="@drawable/volume" />
+
+                        <Button
+                            android:id="@+id/btn_recU2C22"
+                            android:layout_width="35dp"
+                            android:layout_height="36dp"
+                            android:background="@drawable/stop_rec"
+                            android:backgroundTint="@color/blue"
+                            android:onClick="RecorderU2c22" />
+                        <Button
+                            android:id="@+id/btn_playU2C22"
+                            android:layout_width="36dp"
+                            android:layout_height="37dp"
+                            android:background="@drawable/reproducir"
+                            android:backgroundTint="@color/blue"
+                            android:onClick="reproducirU2c22" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="45dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="right"
+                    app:srcCompat="@drawable/woman" />
+            </LinearLayout>
+            //3
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:padding="20dp"
+                android:background="@drawable/shape">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    app:srcCompat="@drawable/man" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:text="@string/tresu22"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <Button
+                            android:id="@+id/btn_recU2C23"
+                            android:layout_width="35dp"
+                            android:layout_height="36dp"
+                            android:backgroundTint="@color/blue"
+                            android:background="@drawable/stop_rec"
+                            android:onClick="RecorderU2c23" />
+                        <Button
+                            android:id="@+id/btn_repoU2C23"
+                            android:layout_width="35dp"
+                            android:backgroundTint="@color/blue"
+                            android:layout_height="36dp"
+                            android:background="@drawable/volume" />
+
+                        <Button
+                            android:id="@+id/btn_playU2C23"
+                            android:layout_width="36dp"
+                            android:backgroundTint="@color/blue"
+                            android:layout_height="37dp"
+                            android:background="@drawable/reproducir"
+                            android:onClick="reproducirU2c23" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            //4
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:padding="20dp"
+                android:background="@drawable/shape">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_gravity="right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:text="@string/cuatrou22" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:orientation="horizontal">
+                        <Button
+                            android:id="@+id/btn_repoU2C24"
+                            android:layout_width="35dp"
+                            android:backgroundTint="@color/blue"
+                            android:layout_height="36dp"
+                            android:background="@drawable/volume" />
+                        <Button
+                            android:id="@+id/btn_recU2C24"
+                            android:layout_width="35dp"
+                            android:backgroundTint="@color/blue"
+                            android:layout_height="36dp"
+                            android:background="@drawable/stop_rec"
+                            android:onClick="RecorderU2c24" />
+                        <Button
+                            android:id="@+id/btn_playU2C24"
+                            android:backgroundTint="@color/blue"
+                            android:layout_width="36dp"
+                            android:layout_height="37dp"
+                            android:background="@drawable/reproducir"
+                            android:onClick="reproducirU2c24" />
+
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="45dp"
+                    android:layout_height="46dp"
+                    app:srcCompat="@drawable/woman" />
+            </LinearLayout>
+            //5
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:padding="20dp"
+                android:background="@drawable/shape">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="45dp"
+                    android:layout_height="46dp"
+                    app:srcCompat="@drawable/man" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:text="@string/cincou22" />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <Button
+                            android:id="@+id/btn_repoU2C25"
+                            android:layout_width="35dp"
+                            android:backgroundTint="@color/blue"
+                            android:layout_height="36dp"
+                            android:background="@drawable/volume" />
+                        <Button
+                            android:id="@+id/btn_recU2C25"
+                            android:layout_width="35dp"
+                            android:layout_height="36dp"
+                            android:backgroundTint="@color/blue"
+                            android:background="@drawable/stop_rec"
+                            android:onClick="RecorderU2c25" />
+
+                        <Button
+                            android:id="@+id/btn_playU2C25"
+                            android:layout_width="36dp"
+                            android:layout_height="37dp"
+                            android:backgroundTint="@color/blue"
+                            android:background="@drawable/reproducir"
+                            android:onClick="reproducirU2C25" />
+
+
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+            //6
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:padding="20dp"
+                android:background="@drawable/shape">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:padding="8dp"
+                        android:text="@string/seisu22" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="right">
+                        <Button
+                            android:id="@+id/btn_repoU2C26"
+                            android:layout_width="35dp"
+                            android:layout_height="36dp"
+                            android:backgroundTint="@color/blue"
+                            android:background="@drawable/volume" />
+                        <Button
+                            android:id="@+id/btn_recU2C26"
+                            android:backgroundTint="@color/blue"
+                            android:layout_width="35dp"
+                            android:layout_height="36dp"
+                            android:background="@drawable/stop_rec"
+                            android:onClick="RecorderU2c26" />
+                        <Button
+                            android:id="@+id/btn_playU2C26"
+                            android:backgroundTint="@color/blue"
+                            android:layout_width="36dp"
+                            android:layout_height="37dp"
+                            android:background="@drawable/reproducir"
+                            android:onClick="reproducirU2c26" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="45dp"
+                    android:layout_height="46dp"
+                    app:srcCompat="@drawable/woman" />
+            </LinearLayout>
+            //7
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:padding="20dp"
+                android:background="@drawable/shape">
+
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="45dp"
+                    android:layout_height="46dp"
+                    app:srcCompat="@drawable/man" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:text="@string/sieteu22" />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <Button
+                            android:id="@+id/btn_repoU2C27"
+                            android:layout_width="35dp"
+                            android:layout_height="36dp"
+                            android:background="@drawable/volume"
+                            android:backgroundTint="@color/blue"/>
+                        <Button
+                            android:id="@+id/btn_recU2C27"
+                            android:layout_width="35dp"
+                            android:layout_height="36dp"
+                            android:backgroundTint="@color/blue"
+                            android:background="@drawable/stop_rec"
+                            android:onClick="RecorderU2c27" />
+
+                        <Button
+                            android:id="@+id/btn_playU2C27"
+                            android:layout_width="36dp"
+                            android:layout_height="37dp"
+                            android:background="@drawable/reproducir"
+                            android:backgroundTint="@color/blue"
+                            android:onClick="reproducirU2c27" />
+
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+            //8
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:padding="20dp"
+                android:background="@drawable/shape">>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_gravity="right"
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:text="@string/ochou22" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="right">
+                        <Button
+                            android:id="@+id/btn_repoU2C28"
+                            android:layout_width="35dp"
+                            android:backgroundTint="@color/blue"
+                            android:layout_height="36dp"
+                            android:background="@drawable/volume" />
+                        <Button
+                            android:id="@+id/btn_recU2C28"
+                            android:layout_width="35dp"
+                            android:layout_height="36dp"
+                            android:backgroundTint="@color/blue"
+                            android:background="@drawable/stop_rec"
+                            android:onClick="RecorderU2c28" />
+                        <Button
+                            android:id="@+id/btn_playU2C28"
+                            android:layout_width="36dp"
+                            android:layout_height="37dp"
+                            android:backgroundTint="@color/blue"
+                            android:background="@drawable/reproducir"
+                            android:onClick="reproducirU2c28" />\
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="45dp"
+                    android:layout_height="46dp"
+                    app:srcCompat="@drawable/woman" />
+            </LinearLayout>
+            //9
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:padding="20dp"
+                android:background="@drawable/shape">>
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="45dp"
+                    android:layout_height="46dp"
+                    app:srcCompat="@drawable/man"
+                    android:backgroundTint="@color/blue"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:text="@string/nueveu22"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <Button
+                            android:id="@+id/btn_repoU2C29"
+                            android:layout_width="35dp"
+                            android:layout_height="36dp"
+                            android:background="@drawable/volume"
+                            android:backgroundTint="@color/blue"/>
+                        <Button
+                            android:id="@+id/btn_recU2C29"
+                            android:layout_width="35dp"
+                            android:layout_height="36dp"
+                            android:backgroundTint="@color/blue"
+                            android:background="@drawable/stop_rec"
+                            android:onClick="RecorderU2c29" />
+
+                        <Button
+                            android:id="@+id/btn_playU2C29"
+                            android:layout_width="36dp"
+                            android:layout_height="37dp"
+                            android:background="@drawable/reproducir"
+                            android:backgroundTint="@color/blue"
+                            android:onClick="reproducirU2c29" />
+
+
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            //10
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_margin="20dp"
+                android:background="@drawable/shape"
+                android:padding="20dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:padding="8dp"
+                        android:text="@string/diezu22" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="right">
+                        <Button
+                            android:id="@+id/btn_repoU2C210"
+                            android:layout_width="35dp"
+                            android:layout_height="36dp"
+                            android:background="@drawable/volume"
+                            android:backgroundTint="@color/blue" />
+                        <Button
+                            android:id="@+id/btn_recU2C210"
+                            android:layout_width="35dp"
+                            android:layout_height="36dp"
+                            android:background="@drawable/stop_rec"
+                            android:backgroundTint="@color/blue"
+                            android:onClick="RecorderU2c210" />
+
+                        <Button
+                            android:id="@+id/btn_playU2C210"
+                            android:layout_width="36dp"
+                            android:layout_height="37dp"
+                            android:layout_gravity="right"
+                            android:background="@drawable/reproducir"
+                            android:backgroundTint="@color/blue"
+                            android:onClick="reproducirU2c210" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="45dp"
+                    android:layout_height="46dp"
+                    app:srcCompat="@drawable/woman" />
+            </LinearLayout>
+            //11
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:padding="20dp"
+                android:background="@drawable/shape">
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="45dp"
+                    android:layout_height="46dp"
+                    android:layout_marginStart="11dp"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginBottom="25dp"
+                    app:srcCompat="@drawable/man" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:text="@string/onceu22" />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <Button
+                            android:id="@+id/btn_repoU2C211"
+                            android:layout_width="35dp"
+                            android:layout_height="36dp"
+                            android:backgroundTint="@color/blue"
+                            android:background="@drawable/volume" />
+                        <Button
+                            android:id="@+id/btn_recU2C211"
+                            android:layout_width="35dp"
+                            android:layout_height="36dp"
+                            android:backgroundTint="@color/blue"
+                            android:background="@drawable/stop_rec"
+                            android:onClick="RecorderU2c211" />
+
+                        <Button
+                            android:id="@+id/btn_playU2C211"
+                            android:layout_width="36dp"
+                            android:layout_height="37dp"
+                            android:backgroundTint="@color/blue"
+                            android:background="@drawable/reproducir"
+                            android:onClick="reproducirU2c211" />
+
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+                //12
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/shape"
+                    android:padding="20dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:padding="8dp"
+                            android:text="@string/diezu22" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_gravity="right">
+                            <Button
+                                android:id="@+id/btn_repoU2C212"
+                                android:layout_width="35dp"
+                                android:layout_height="36dp"
+                                android:background="@drawable/volume"
+                                android:backgroundTint="@color/blue" />
+                            <Button
+                                android:id="@+id/btn_recU2C212"
+                                android:layout_width="35dp"
+                                android:layout_height="36dp"
+                                android:background="@drawable/stop_rec"
+                                android:backgroundTint="@color/blue"
+                                android:onClick="RecorderU2c212" />
+
+                            <Button
+                                android:id="@+id/btn_playU2C212"
+                                android:layout_width="36dp"
+                                android:layout_height="37dp"
+                                android:layout_gravity="right"
+                                android:background="@drawable/reproducir"
+                                android:backgroundTint="@color/blue"
+                                android:onClick="reproducirU2c212" />
+
+
+
+
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    <ImageView
+                        android:id="@+id/imageView12"
+                        android:layout_width="45dp"
+                        android:layout_height="46dp"
+                        app:srcCompat="@drawable/woman" />
+                </LinearLayout>
+                //13
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:padding="20dp"
+                    android:background="@drawable/shape">
+
+                    <ImageView
+                        android:id="@+id/imageView13"
+                        android:layout_width="45dp"
+                        android:layout_height="46dp"
+                        android:layout_marginStart="11dp"
+                        android:layout_marginLeft="11dp"
+                        android:layout_marginBottom="25dp"
+                        app:srcCompat="@drawable/man" />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/textView13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:text="@string/onceu22" />
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <Button
+                                android:id="@+id/btn_repoU2C213"
+                                android:layout_width="35dp"
+                                android:layout_height="36dp"
+                                android:backgroundTint="@color/blue"
+                                android:background="@drawable/volume" />
+                            <Button
+                                android:id="@+id/btn_recU2C213"
+                                android:layout_width="35dp"
+                                android:layout_height="36dp"
+                                android:backgroundTint="@color/blue"
+                                android:background="@drawable/stop_rec"
+                                android:onClick="RecorderU2c213" />
+
+                            <Button
+                                android:id="@+id/btn_playU2C213"
+                                android:layout_width="36dp"
+                                android:layout_height="37dp"
+                                android:backgroundTint="@color/blue"
+                                android:background="@drawable/reproducir"
+                                android:onClick="reproducirU2c213" />
+
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+            </LinearLayout>
+            //next
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/back1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/before"
+                    android:backgroundTint="#FFFF"
+                    android:textSize="50dp"
+                    />
+
+                <Button
+                    android:id="@+id/home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="50dp"
+                    android:background="@drawable/home"
+                    android:backgroundTint="#FFFF" />
+
+                <Button
+                    android:id="@+id/nextconver1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:background="@drawable/next"
+                    android:backgroundTint="#FFFF"
+                    android:textSize="50dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

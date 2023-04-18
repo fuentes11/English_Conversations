@@ -1,0 +1,188 @@
+<resources>
+    //conver 1 Unidad1
+    <string name="uno1">José: Hello. I’m José Villa. What’s your name?</string>
+    <string name="ddos1"> Diana: Diana Pérez</string>
+    <string name="tres1">José: It’s nice to meet you, Diana.</string>
+    <string name="cuatro1">Diana: Nice to meet you too.</string>
+    <string name="cinco1">José: I’m sorry. How do you spell your last name?</string>
+    <string name="seis1">Diana: It’s P-E-R-E-Z</string>
+    <string name="siete1">José: What do you do?</string>
+    <string name="ocho1">Diana: I work as a personal assistant to the marketing director of SHIBITA</string>
+    <string name="nueve1">José: What does your job involve?</string>
+    <string name="diez1">Diana: I deal with new brands and I’m in charge of launching their products.</string>
+    <string name="once1">José: Interesting. I am a sales manager, and I am looking for a company that advertises a new product.</string>
+    <string name="doce1">Diana: Well, this is the right place for that. Here’s my business card, give me a call and let’s talk about it. </string>
+    <string name="trece1">José: Thanks. I’ll sure do. It’s time to get back to the conference. </string>
+    //conver 2 Unidad1
+
+
+    <string name="app_name">MSEP</string>
+
+
+    <string name="uno">Benjamin: Good morning, Sarah. How are you?</string>
+    <string name="ddos">Sarah: I’m just fine. Thanks. Look, we have a visitor today, this is Carlos Mendoza. </string>
+    <string name="tres">Benjamín: Hello Carlos. Do you work in the Chalatenango office?</string>
+    <string name="cuatro">Carlos: Not right now. Only my boss is there. I’m established in La Paz for the moment</string>
+    <string name="cinco">Benjamín: Look Michelle is coming. She’s based in La Paz too. Do you know her?</string>
+    <string name="seis">Carlos: Oh, yes. We are creating a new brand.</string>
+    <string name="siete">Sarah: Lucky you. She’s one of the best in the marketing area of this company.</string>
+    <string name="ocho">Benjamin: Well. I have to run now for a meeting. Nice to meet you Carlos. See you guys later.</string>
+    <string name="nueve">Carlos: My pleasure</string>
+    <string name="diez">Sarah: Bye-bye.</string>
+    //conver 3 Unidad1
+    <string name="uno3">Boss: Good morning, everyone. Welcome to the promotion department. My name is Ana Cortéz,
+        and I am your boss. I already know your names from the recruiting process, and I also can see them in your badges; however,
+        I would like you to say something about the job you will be performing here and your main responsibilities. Pedro,
+        would you like to start?</string>
+    <string name="ddos3">Pedro: Sure. I’m Pedro González and I will be the manager consultant my main role here is to give advice on our markets, our organization,
+        and our processes. I will be interviewing clients, identifying problems, and giving solutions. </string>
+    <string name="tres3">Carmen: Good morning. My name is Carmen Villanueva and I am the accountant. Mainly I will be in charge of providing advice to the manager
+        director on financial matters.I will be controlling the money that comes in and goes out. </string>
+    <string name="cuatro3">Alex: Hello. I’m Alex Pineda. I’m glad to be here. Let me tell you that I am the quality manager and I arrange and carry out tests of our
+        products and I deal with customers´ complaints. </string>
+    //conver 1 unidad 2
+
+    <string name="unou2">Sandy: Hello. </string>
+    <string name="ddosu2"> David: Hi Sandy. It´s me David.</string>
+    <string name="tresu2">Sandy: Hi. How are things in Portugal?</string>
+    <string name="cuatrou2">David: Everything is fine. How about you?</string>
+    <string name="cincou2">Sandy: I’m good. Where are you calling from?</string>
+    <string name="seisu2">David: I’m in Porto at the moment. Listen, I’m calling because I need a favor.</string>
+    <string name="sieteu2">Sandy: Sure. What do you need?</string>
+    <string name="ochou2">David: I’m currently working on the plans for the new city mall, and I need you to email me the budget because
+        I would like to reconsider some goods for the building. </string>
+    <string name="nueveu2">Sandy: Right now, I’m finishing a financial report for Richard, so as soon as I’m done with it, I’ll send it to you.</string>
+    <string name="diezu2">David: Thanks a lot. </string>
+    <string name="onceu2">Sandy: See you soon. </string>
+    //conver 2 unidad 2
+
+    <string name="unou22">Robert: Good afternoon, Hellen.  </string>
+    <string name="ddosu22"> Hellen: Good afternoon, Robert. I need to talk to you about the design for the new logo for Shibita. When can we meet?</string>
+    <string name="tresu22">Robert: Sorry. I can’t make it today. I got meetings the rest of the afternoon. How about Tuesday morning?</string>
+    <string name="cuatrou22">Hellen: I’m interviewing new sale reps on Tuesday morning, but the afternoon is fine.</string>
+    <string name="cincou22">Robert: Actually, I have a medical appointment in the afternoon. Sorry. </string>
+    <string name="seisu22">Hellen: OK. Let me see… Are you free on Wednesday?</string>
+    <string name="sieteu22">Robert: No, I’m visiting clients on Wednesday morning and unfortunately, I’m flying to Costa Rica in the afternoon that day.</string>
+    <string name="ochou22">Hellen: I see. So, are you going to the Marketing Fever Fair? </string>
+    <string name="nueveu22">Robert: Of course. That’s on Thursday and Friday, but I’ll be back on Friday evening. </string>
+    <string name="diezu22">Hellen: So, what about Monday morning? </string>
+    <string name="onceu22">Robert: It sounds good to me. We can talk about it then. The coffee is on me. I have to go I have a meeting with the finance director. </string>
+    <string name="doceu22">Hellen: Deal. See you then. </string>
+    <string name="treceu22">Robert: Take care.  </string>
+    //conver 3 unidad 2
+
+    <string name="unou23">Bruno: Are we planning to go to the Marketing Fever Fair this year? </string>
+    <string name="ddosu23"> Monica: Yes, I think so. It’s always a good place for making new clients and contacts. When is it?</string>
+    <string name="tresu23">Bruno: It’s on the last week of March this year, from Wednesday to Friday.</string>
+    <string name="cuatrou23">Monica: Oh! Wait a minute. Aren’t we going to Panama that week?</string>
+    <string name="cincou23">Bruno: No. The Panama training is in May. </string>
+    <string name="seisu23">Monica: That’s right. We are free to go to the Marketing Fever Fair then. </string>
+    <string name="sieteu23">Bruno: Remember that they always do an awesome reception the first day.</string>
+    <string name="ochou23">Monica: Sounds great. Can you make all the necessary arrangements? </string>
+    <string name="nueveu23">Bruno: No problem. I’ll buy our tickets, book the hotel, and confirm our attendance. </string>
+    <string name="diezu23">Monica: Perfect.  </string>
+    //conver 1 unidad 3
+    <string name="unou3c11">Mike: Hi! Rosa. Welcome back. </string>
+    <string name="ddosu3c12"> Rosa: Hey, hi! What´s new?</string>
+    <string name="tresu3c13">Mike: Well, the new management have decided to invest in staff training.</string>
+    <string name="cuatro3c14">Rosa: Oh, really? Those are good news. What are the trainings about?</string>
+    <string name="cinco3c15">Mike: Our managers want us to improve our performance when presenting and negotiating with suppliers
+        and clients and make the most of our computer skills. </string>
+    <string name="seis3c16">Rosa: That´s great! In my case, I have been meaning to get better at my computer skills </string>
+    <string name="siete3c17">Mike: Good for you, in my case I’ll be working on my negotiating skills.</string>
+    <string name="ocho3c18">Rosa: Let´s do it.</string>
+    //conver 2 unidad 3
+    <string name="unou3c21">Bruno: Good news, our booking for the marketing fever fair has been confirmed. </string>
+    <string name="ddosu3c22"> Monica: Excellent! Now it´s time to organize the stand. By the way, do you know where it is?</string>
+    <string name="tresu3c23">Bruno: Let me check my email, I got it yesterday. It´s in Conference Room 2.</string>
+    <string name="cuatro3c24">Monica: Lucky you! That´s one of the best Conference Rooms. This exhibition is going to be better than last year.</string>
+    <string name="cinco3c25">Bruno: Can´t wait. I´m sure that there will be more visitors than last year. </string>
+    <string name="seis3c26">Monica: Let´s get started then. </string>
+    //conver 3 unidad 3
+    <string name="unou3c31">Monica: Bruno, where are the snacks? The people from the hotel promised to bring them at 9:00 AM, are they here yet? </string>
+    <string name="ddosu3c32"> Bruno: Actually no. I´ll call them now.</string>
+    <string name="tresu3c33">Bruno: Hello, this is Bruno Marin from Conference Room 2..</string>
+    <string name="cuatro3c34">Receptionist: How can I help you, Mr. Marin?</string>
+    <string name="cinco3c35">Bruno: We asked for 150 snacks, and you promised that they will be here at 9:00, but it´s 9:30 there is no sight of them. </string>
+    <string name="seis3c36">Receptionist: I´m really sorry for the inconvenience Mr. Marin, let me assist you right away, can you hold for a minute? </string>
+    <string name="sieteu3c37">Bruno: yes. I´ll hold.</string>
+    <string name="ocho3c38">Receptionist: Thank you for your patience, let me inform you that the inconvenience with the snacks has been solved. They are on the way to your Conference Room as we speak.</string>
+    <string name="nueve3c39">Bruno: Thanks a lot! I appreciate your help. </string>
+    <string name="diezc310">Receptionist: For the inconvenience the hotel will give you a 25% off. Have a nice day Mr. Marin.</string>
+    //conver 1 unidad 4
+
+    <string name="unou4c11">Bryan: Computer Supplies Ltd, May I help you? </string>
+    <string name="ddosu4c12"> Wendy: Hello, I would like to speak to Andrea Roja please?</string>
+    <string name="tresu4c13">Bryan: Who´s calling, please?</string>
+    <string name="cuatro4c14">Wendy: This is Wendy Castro, of VECAS import.</string>
+    <string name="cinco4c15">Bryan: Sorry, Ms. Roja is not at the office at this moment, would you like to leave a message? </string>
+    <string name="seis4c16">Wendy: Yes. Our order has just arrived, and you sent the wrong computer parts. We ordered 6 SSD hard drives, 6 pairs of DDR4 memory RAM, 12 Power supplies for servers, 12 RTX 2016 TI video cards. You sent us 4 SSD hard drives, 4 pairs of DDR4 memory RAM, 12 power supplies for computers and 12 TRX 2016 video cards. </string>
+    <string name="siete4c17">Bryan: I see, can you give me your order number?</string>
+    <string name="ocho4c18">Wendy: Sure. It´s 2021-0111-99.</string>
+    <string name="nueve4u19">Bryan: Can you please hold while I am checking your order.</string>
+    <string name="diezu4u110">Wendy: Take your time.</string>
+    <string name="once4u111">Bryan: Thanks for holding Ms. Castro. We apologize for the inconvenience; I can see that the wrong computer parts were sent. I´ll pass your message to Ms. Roja to take care of your order. She will contact you ASAP.</string>
+    <string name="doce4u112">Wendy: I appreciate your help. I´ll keep an eye out for that, thanks.</string>
+    //conver 2 unidad 4
+    <string name="unou4c21">Robert: Welcome to Pinewood taxes, how may I help you? </string>
+    <string name="ddosu4c22"> Linda: I would like someone to assist me with my income taxes.</string>
+    <string name="tresu4c23">Robert: Glad to. First, we need your Employee Wage Report Form. Do you have it with you?</string>
+    <string name="cuatro4c24">Linda: Yes, I do.</string>
+    <string name="cinco4c25">Robert: Great! Let me see it, so I can get started on your taxes.</string>
+    <string name="seis4c26">Linda: Last time, I paid a huge amount of money back and I never understood why. So I wonder if you can explain to me what this is about?</string>
+    <string name="siete4c27">Robert: Well, every month part of your income is taken out of your paycheck by the IRS.</string>
+    <string name="ocho4c28">Linda: Oh! Do you mean the federal and State taxes?</string>
+    <string name="nueve4u29">Robert: Exactly. And what we are doing here is checking to see if you paid too much or too little to the IRS last year.</string>
+    <string name="diezu4u210">Linda: I hope I can get a big refund with your help this time, let´s do it.</string>
+    //conver 3 unidad 4
+    <string name="unou4c31">Natalia: Pixel Electronics</string>
+    <string name="ddosu4c32">Henry: Good morning, I would like to speak to Natalia Garcia.</string>
+    <string name="tresu4c33">Natalia: Speaking.</string>
+    <string name="cuatro4c34">Henry: This is Henry. You forgot to email me the budget figures, and the meeting has just started. I need them right now.</string>
+    <string name="cinco4c35">Natalia: Well, you are not going to like this, but my assistant found out that some of the figures aren’t quite right. I hope they will be ready in an hour.</string>
+    <string name="seis4c36">Henry: That´s very irresponsible from your side. I´ll try to delay this presentation as much as possible, however; if they are not ready by the time they need to be presented, you will need to report to our Regional Director.</string>
+    <string name="siete4c37">Linda: We are doing everything we can to fix the issue so we don’t get to that point. You must know that we had a problem with our cloud service.</string>
+    <string name="ocho4c38">Henry: Did you contact the IT department so they can help you fix the problem?</string>
+    <string name="nueve4u39">Linda: Of course, Marcos is working on that, we’ll let you know when everything is worked out.</string>
+    <string name="diezu4u310">Henry: OK.</string>
+    //conver 1 unidad 5
+
+    <string name="unou5c11">Diana: Hey! You look familiar </string>
+    <string name="ddosu5c12"> Juan: You too. Aren´t Diana Medina from The First Bank?</string>
+    <string name="tresu5c13">Diana: Right. Juan Cortez, isn´t it?</string>
+    <string name="cuatrou5c14">Juan: Flesh and blood. .</string>
+    <string name="cincou5c15">Diana: I remember that I interviewed a few years ago; we offered you a job but you decided to work with Main Bank instead. </string>
+    <string name="seisu5c16">Juan: Yeah, I did that, sorry, the thing is that they offered me better conditions.  </string>
+    <string name="sieteu5c17">Diana: I got it. How are things there then?</string>
+    <string name="ochou5c18">Juan: It didn´t work out for me, so after a year I quit, and I decided to start my own Advertising Company.</string>
+    <string name="nueveu5c19">Diana: Good for you. How is your company doing so far?</string>
+    <string name="diezu5c110">Juan: Right now, we are looking for a bank loan to purchase new high tech multimedia equipment.</string>
+    <string name="onceu5c111">Diana: You must give me your business card.</string>
+    <string name="doceu5c112">Juan: Here it is.</string>
+    <string name="treceu5c113">Diana: Let´s keep in touch.</string>
+
+    //conver 2 unidad 5
+    <string name="unou5c21">Bank Manager: All the paperwork has been checked by loan department and any observations were found. We are just missing to take a look to your
+        business plan. What can you tell me about it?</string>
+    <string name="ddosu5c22"> Juan: There are several advertising companies already, so we are looking to step up from the current Salvadorean market and we are going to
+        offer advertising campaigns based on augmented reality technology.  </string>
+    <string name="tresu5c23">BM: I understand that you already have part of the multimedia equipment needed to accomplish that.</string>
+    <string name="cuatrou5c24">Juan: Yes. However, that equipment is out of date, and it won’t help us to expand our range quickly.</string>
+    <string name="cincou5c25">BM: What kind of companies are going to be your main market?</string>
+    <string name="seisu5c26">Juan: Companies that target young people, like clothing, shoes, video games and so on.</string>
+    <string name="sieteu5c27">BM: Let´s look at these sales figures in more detail.</string>
+    <string name="ochou5c28">Juan: alright, you won’t get disappointed.</string>
+
+    //conver 3 unidad 5
+    <string name="unou5c31">Silvia: Welcome to another episode of Marketing Plus, my name is Silvia and today we are going to know a little bit about Juan who is crated an amazing advertising agency. Juan is the founder
+        of 60 sec marketing, it´s good to have you here Juan. So tell us what makes your company different from the rest?</string>
+    <string name="ddosu5c32">Juan: We offer implementation, strategy, training and workshops, but for the first time in history in El Salvador, all our services are based on augmented reality.</string>
+    <string name="tresu5c33">Silvia: WOW! Interesting, where can we have a piece of your artwork and see it working?</string>
+    <string name="cuatrou5c34">Juan: In this moment we are working with a clothing store and in a couples of weeks you will see the biggest campaign with this new way of doing marketing here in our country.</string>
+    <string name="cincou5c35">Silvia: Can´t wait to see that, can you give us a heads up here for our audience?</string>
+    <string name="seisu5c36">Juan: I am sorry, I can´t, we have signed a confidentially paper, but I promise you that the waiting will be worthy.</string>
+    <string name="sieteu5c37">Silvia: We will definitely keep an eye on that, and we will see you soon that expected.</string>
+    <string name="ochou5c38">Juan: Thank you for the opportunity for spreading the good news of this new technology in marketing.</string>
+    <string name="nueveu5c39">Silvia: Thank you for listening us, see you next time, stay tuned.</string>
+
+</resources>
